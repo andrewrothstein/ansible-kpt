@@ -1,6 +1,6 @@
 ---
 # defaults file for kpt
-kpt_ver: '1.0.0-beta.35'
+kpt_ver: '1.0.0-beta.54'
 kpt_mirror: https://github.com/GoogleContainerTools/kpt/releases/download
 kpt_arch_map:
   aarch64: arm64
@@ -40,3 +40,11 @@ kpt_checksums:
     linux_arm64: sha256:1b0b0b895f49ae405fc38f2fd0dd94fcb24bbc1e0b860c74917d4fea16d233e8
     # https://github.com/GoogleContainerTools/kpt/releases/download/v1.0.0-beta.35/kpt_darwin_amd64-1.0.0-beta.35.tar.gz
     darwin_amd64: sha256:78f01274f2bdd43021442f1e21ceefdee314a5e2db49d749c6314a38cec1035d
+  # https://github.com/GoogleContainerTools/kpt/releases/download/v1.0.0-beta.54/checksums.txt
+  '1.0.0-beta.54':
+    # https://github.com/GoogleContainerTools/kpt/releases/download/v1.0.0-beta.54/kpt_linux_amd64-1.0.0-beta.54.tar.gz
+    linux_amd64: sha256:13e4798ebda7519b20ef762d19372e7db5b6b6b91120ec61d2a1e4603ba9090f
+    # https://github.com/GoogleContainerTools/kpt/releases/download/v1.0.0-beta.54/kpt_linux_arm64-1.0.0-beta.54.tar.gz
+    linux_arm64: sha256:9f4d6d7ec1a3761bff164e09e6d789834a79555e47307645adbd5319d6130a9b
+    # https://github.com/GoogleContainerTools/kpt/releases/download/v1.0.0-beta.54/kpt_darwin_amd64-1.0.0-beta.54.tar.gz
+    darwin_amd64: sha256:0fd416328bdb2ee66ed8d0005f9a4f5b16ba599a5462e5ed217464d8d8a21f44
